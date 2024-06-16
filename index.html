@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.2/socket.io.js" integrity="sha512-VJ6+sp2E5rFQk05caiXXzQd1wBABpjEj1r5kMiLmGAAgwPItw1YpqsCCBtq8Yr1x6C49/mTpRdXtq8O2RcZhlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <p>HEllo WorLD</p>
+
+    <script>
+        var socket= io();
+        
+//  Default event in socket IO 
+        // socket.on('message',function (data) {
+        //     document.write('===>',data)
+        // })
+
+//  Custom event in socket IO 
+        // socket.on('myCustomerEvent',function (data) {
+        //     document.write('===>',data.descrption)            
+        // })
+
+//  Broadcast in socket IO 
+        // socket.on('broadcast',function (data) {
+        //     document.body.innerHTML='';            
+        //     document.write('===>',data.message)            
+        // })
+
+//  Namespace in socket IO  
+        // var customSocket = io('/socket-namespace')
+        // customSocket.on('mynamespaceEvent',function (message) {
+        //     document.body.innerHTML='';            
+        //     document.write('===>',message) 
+        // })
+
+// Rooms (CHANNEL) in socket IO
+        // var room = 1;
+        
+    </script>
+    
+</body>
+</html>
